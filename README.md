@@ -3,6 +3,8 @@
 Tiny zero-dependency URL health checker. One file, Python 3 stdlib only,
 no install.
 
+![urlprobe checking six sites in a terminal](docs/terminal.png)
+
     ./urlprobe.py https://example.com https://github.com
     cat urls.txt | ./urlprobe.py -w 16
 
