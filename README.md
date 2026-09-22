@@ -17,5 +17,5 @@ HEAD first, GET fallback (some servers 405 HEAD). `#` comments and blank
 lines ignored in stdin lists. `--workers N` for parallel checks,
 `--timeout S` per request.
 
-MIT license. Built by [James Verlander](https://www.poketdev.com/) — the
+MIT license. Built by [James Verlander](https://www.poketdev.com/), the
 one-flat-fee software development subscription.
