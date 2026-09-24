@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urlprobe-cli"
+version = "1.0.0"
+description = "Tiny zero-dependency URL health checker: one line per URL with status code and latency"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "James Verlander"}]
+keywords = ["url", "health-check", "uptime", "monitoring", "cli", "smoke-test"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Internet :: WWW/HTTP :: Site Management",
+  "Topic :: System :: Monitoring",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://www.poketdev.com/"
+"Source Code" = "https://github.com/scrapertweeter3-prog/urlprobe"
+"Bug Tracker" = "https://github.com/scrapertweeter3-prog/urlprobe/issues"
+
+[project.scripts]
+urlprobe = "urlprobe:main"
+
+[tool.setuptools]
+py-modules = ["urlprobe"]
