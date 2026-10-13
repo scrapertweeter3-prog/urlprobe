@@ -1,0 +1,6 @@
+site_name: urlprobe
+site_description: Tiny zero-dependency URL health checker (Python stdlib only).
+repo_url: https://github.com/scrapertweeter3-prog/urlprobe
+repo_name: scrapertweeter3-prog/urlprobe
+nav:
+  - Home: index.md
